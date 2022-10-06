@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "images/logo.png" type = "image/png">
+    <style>
+        #slider{
+            overflow: hidden;
+
+        }
+        #slider figure{
+            position: relative;
+            width: 500%;
+            margin: 0;
+            left: 0;
+            animation: 15s slider infinite ;
+
+        }
+        #slider figure img{
+         float: left;
+         width: 20%;
+        }
+        @keyframes slider {
+            0%{
+                left: 0;
+            }
+            20%{
+                left: 0;
+            }
+            25%{
+                left: -100%;
+            }
+            45%{
+                left: -100%;
+            }
+            50%{
+                left: -200%;
+            }
+            70%{
+                left: -200%;
+            }
+            75%{
+                left: -300%;
+            }
+            95%{
+                left: -300%;
+            }
+            100%{
+                left: -400%;
+            }
+        }
+        
+
+       .heading{
+        color: rgb(209, 236, 129);
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 50%;
+       }
+       .heading1{
+        color: #bbeff7;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 40%;
+       }
+       .heading2{
+        color: rgb(211, 229, 170);
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 70%;
+       }
+      .space{
+        color: rgb(40, 37, 218);
+        text-align: center;
+        background-color: rgb(39, 191, 54);
+      }
+      .site-nav{
+        color: aqua;
+        text-decoration: solid;
+        text-emphasis:5px;
+        font-size: 35px;
+        font-weight: bold;
+      }
+      .head-btn:hover{
+     color: aqua;
+      }
+      .hi{
+        color: rgb(250, 248, 248);
+      }
+      .her{
+        color: rgb(216, 29, 154);
+      }
+      .same{
+        color: rgb(196, 25, 136);
+      }
+      .der{
+        color: blueviolet;
+      }
+      .rum{
+        color: rgb(85, 210, 69);
+      }
+      .ser{
+        color: rgb(237, 17, 138);
+      }
+      
+    </style>
+</head>
+ <div id="min">
+    <nav>
+        
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#customers">Customers</a></li>
+        </ul>
+    </nav>
+ </div>
+ <hr>
+ <hr>
+ <div id="slider">
+    
+    <figure>
+        
+        <img src="images/ban1.jpg" alt="" srcset="">
+        <img src="images/ban2.jpg" alt="" srcset="">
+        <img src="images/banner-img.jpg" alt="" srcset="">
+        <img src="images/ban4.jpg">
+        <img src="images/ban1.jpg" alt="" srcset="">
+        
+    </figure>
+   
+    <h1  class="heading">WE KNOW WHAT YOU LOVE
+    
+    </h1>
+    <h3 class="heading1">WELCOME  TO  PARADISE</h3>
+    <h3 class="heading2">Cleanliness Is Indeed Next to Godliness</h3>
+</div>
+
+<hr>
+<hr>
+<h1 class="space">WELCOME TO PARADISE,GUWAHATI</h1>
+<body>
+    <hr>
+    <header class = "header" id = "header">
+        <div class = "head-top">
+            <div class = "site-name">
+                <span>PARADISE</span>
+            </div>
+            <div class = "site-nav">
+                <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+            </div>
+        </div>
+
+        <div class = "head-bottom flex">
+            <h2 class="her">ENJOY THE BEAUTY OF GUWAHATI</h2>
+            <p class="hi">PARADISE CARE FOR YOU,EXPERIENCE A GOOD STAY, ENJOY FANTASTIC OFFERS</p>
+            <button type = "button" class = "head-btn">GET STARTED</button>
+        </div>
+    </header>
+    
+    <hr>
+    
+    <!-- end of header -->
+
+    <!-- side navbar -->
+    <div class = "sidenav" id = "sidenav">
+        <span class = "cancel-btn" id = "cancel-btn">
+            <i class = "fas fa-times"></i>
+        </span>
+
+        <ul class = "navbar">
+            <li><a href = "#header">home</a></li>
+            <li><a href = "#services">services</a></li>
+            <li><a href = "#rooms">rooms</a></li>
+            <li><a href = "#customers">customers</a></li>
+        </ul>
+        <button class = "btn sign-up">sign up</button>
+        <button class = "btn log-in">log in</button>
+    </div>
+    <!-- end of side navbar -->
+
+    <!-- fullscreen modal -->
+    <div id = "modal"></div>
+    <!-- end of fullscreen modal -->
+
+    <!-- body content  -->
+    <section class = "services sec-width" id = "services">
+        <div class = "title">
+            <h2>services</h2>
+        </div>
+        <div class = "services-container">
+            <!-- single service -->
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-utensils"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2 class="ser">Food Service/ Food Runner</h2>
+                    <p>We not only have great products, we also offer value-added services to help you attract customers and serve the best they deserve. Check out our services below to know how our team of expert team can help solve your kitchen challenges.
+                        There are so many option of food,and our team always look into the hygien of food.
+                    </p>
+                    <button type = "button" class = "btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-swimming-pool"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2 class="ser">Refreshment</h2>
+                    <p>Heritage walk at Guwahati - Foot bath ritual on arrival at Guwahati - Evening arti session at the 100 year old Ganesha Temple at The Usha Kiran Palace, near IIT GUWAHATI. - Lounge access at PARADISE Hotel, GUWAHATI.We also have a big Cricket Ground,Football Ground and a Tennis Court </p>
+                    <button type = "button" class = "btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-broom"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2 class="ser">Housekeeping</h2>
+                    <p>Housekeeping department in our hotel ensures the cleanliness, maintenance, and aesthetic appeal of all rooms and public areas. The housekeeping department not only turnarounds (prepares and clean guestrooms) on a timely manner it also cleans and maintains everything in the hotel so that the property is as fresh and attractive similar to the day when it opened the doors for the business.</p>
+                    <button type = "button" class = "btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-door-closed"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2 class="ser">Room Security</h2>
+                    <p>Hotel Guest room Security locks can be a critical aspect of guest protection. Locks and locking systems are needed which lend themselves to the smooth and efficient operation of the property, but which are not easily compromised.There are more than 1000 cc Tv camera in our Hotel.Our Security Guard  serves 24 hour,We are highly alert about Your security. </p>
+                    <button type = "button" class = "btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+        </div>
+    </section>
+
+    <div class = "book">
+        <form class = "book-form">
+            <div class = "form-item">
+                <label for = "checkin-date">Check In Date: </label>
+                <input type = "date" id = "chekin-date">
+            </div>
+            <div class = "form-item">
+                <label for = "checkout-date">Check Out Date: </label>
+                <input type = "date" id = "chekout-date">
+            </div>
+            <div class = "form-item">
+                <label for = "adult" >Adults: </label>
+                <input type = "number" min = "1" value = "1" id = "adult">
+            </div>
+            <div class = "form-item">
+                <label for = "children">Children: </label>
+                <input type = "number" min = "1" value = "1" id = "children">
+            </div>
+            <div class = "form-item">
+                <label for = "rooms">Rooms: </label>
+                <input type = "number" min = "1" value = "1" id = "rooms">
+            </div>
+            <div class = "form-item">
+                <input type = "submit" class = "btn" value = "Book Now">
+            </div>
+        </form>
+    </div>
+
+    <section class = "rooms sec-width" id = "rooms">
+        <div class = "title">
+            <h2>rooms</h2>
+        </div>
+        <div class = "rooms-container">
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "images/img1.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3 class="rum">Luxury Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Stay First Then Pay.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            High-quality furnishings.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Contains A LED Smart Tv
+                        </li>
+                    </ul>
+                    <p>We don’t want your vacation with us to be just about getting away from home…we want it to be way better than that!
+
+                        Our luxury rooms are designed to make you feel comfortable, serene, relaxed, pampered, and completely carefree!
+                        
+                        Creating this is all in the details, so we pay close attention and include every important element so you can experience a luxury getaway where no aspect of comfort and relaxation is overlooked.</p>
+                    <p class = "rate">
+                        <span> ₹1000.00 /</span> Per Night
+                    </p>
+                    <button type = "button" class = "btn">book now</button>
+                </div>
+            </article>
+            <!-- end of single room -->
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "images/img2.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3 class="rum">Delux Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Stay First Then Pay.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Have LED Smart Tv,Refrigerator.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Explore the beauty of Nature by Window.
+                        </li>
+                    </ul>
+                    <p>Deluxe rooms, are modern decorated, can accommodate up to 2 persons, totally soundproofed and equipped with high tech comforts such as high speed internet access, USB ports , smart TV, room cleaning touch system and private hydromassage bathtub. ROOM FACILITIES. Free internet. Coffee / Tea maker.Also the room placed exactly right after Beautifull River.We sure You will definitely enjoy it.</p>
+                    <p class = "rate">
+                        <span> ₹1500.00 /</span> Per Night
+                    </p>
+                    <button type = "button" class = "btn">book now</button>
+                </div>
+            </article>
+            <!-- end of single room -->
+            <!-- single room -->
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "images/img4.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3 class="rum">Single Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Stay First Then Pay.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Have LED Smart Tv.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                           Highly Decoreted.
+                        </li>
+                    </ul>
+                    <p>Our comfortable single rooms are just the right size if you are travelling alone. Similar to all the other rooms in the PARADISE Hotel, the single room is fully equipped with all comforts.
+
+                        In addition to the comfortable hotel lounge, the room is equipped with a Smart TV, Wi-Fi and iPod docking station. With a size of 14.5 m², our single rooms offer all the space and comfort you need during your stay in Guwahati.Even if single rooms could reasonably accommodate two or more guests.The Room Stands right Behind Hill.</p>
+                    <p class = "rate">
+                        <span>₹1000.00  /</span> Per Night
+                    </p>
+                    <button type = "button" class = "btn">book now</button>
+                </div>
+            </article>
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "images/img3.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3 class="rum">Double Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Stay First Then Pay.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Have Multiple Bed.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            LED Smart HD Tv,Refrigerator,Ac.
+                        </li>
+                    </ul>
+                    <p>A double room in a hotel is a room designed to accommodate the needs of guests that wish to share a bed. There are a few differences between hotels and motels, but for most of them, a standard double room contains one king-size bed that can accommodate two or more people. A double room can be ideal for a couple or a family that does not wish to be separated. As a hotelier, you can market a double room as the ultimate selection for couples, friends, teams, or a family with kids.
+
+                    </p>
+                    <p class = "rate">
+                        <span>₹1750.00  /</span> Per Night
+                    </p>
+                    <button type = "button" class = "btn">book now</button>
+                </div>
+            </article>
+            <!-- end of single room -->
+        </div>
+    </section>
+
+
+    <section class = "customers" id = "customers">
+        <div class = "sec-width">
+            <div class = "title">
+                <h2>customers</h2>
+            </div>
+            <div class = "customers-container">
+                <!-- single customer -->
+                <div class = "customer">
+                    <div class = "rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "far fa-star"></i></span>
+                    </div>
+                    <h3 class="der">Just Awesome</h3>
+                    <p class="same">This was my 1st time in Paradise hotel, guwahati .Food was very nice and tasty .Breakfast was very good so many items was there….Specially panner paratha also was very nice .Staff was very good specially thanks to Subrata from restaurant and take care for breakfast. </p>
+                    <img src = "images/cus1.jpg" alt = "customer image">
+                    <span>Lisa, Gujrat</span>
+                </div>
+                <div class = "customer">
+                    <div class = "rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "far fa-star"></i></span>
+                    </div>
+                    <h3 class="der">We Loved it</h3>
+                    <p class="same">It is a great place to stay in Guwahati. The rooms were clean and comfortable. I travelled with my friends ,They also like this place. The Kamakhya Temple is just 20 min far from the hotel,we travelled there also,Enjoyed lot.Highly recommended.</p>
+                    <img src = "images/cus4.jpeg" alt = "customer image">
+                    <span>Prajay, Maharastra</span>
+                </div>
+                <!-- end of single customer -->
+                <!-- single customer -->
+                <div class = "customer">
+                    <div class = "rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "far fa-star"></i></span>
+                    </div>
+                    <h3 class="der">Comfortable Living</h3>
+                    <p class="same">The hotel, mostly the lobby, is very tastefully done up. The room was spacious, especially the sitting area was a bonus. Bed was comfortable. The bathroom was clean and almost as big as a room with the towels being fresh. The balcony is attractive as well as for a peaceful night sit-down.</p>
+                    <img src = "images/cus2.jpeg" alt = "customer image">
+                    <span>Biki, West Bengal</span>
+                </div>
+                <!-- end of single customer -->
+                <!-- single customer -->
+                <div class = "customer">
+                    <div class = "rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "far fa-star"></i></span>
+                    </div>
+                    <h3 class="der">Nice Place</h3>
+                    <p class="same">This is a good hotel with all facilities. Furniture, toilet fittings, A/c are excellent. It is located in the heart of the city and close to market places. However, I travelled on leisure and found myself in a cramped and congested place. The rooms are clean, well maintained. Room service is good, lobby is nice looking.</p>
+                    <img src = "images/cus3.jpeg" alt = "customer image">
+                    <span>Sovan, Delhi</span>
+                </div>
+                <!-- end of single customer -->
+            </div>
+        </div>
+    </section>
+    <!-- end of body content -->
+    
+    <!-- footer -->
+    <footer class = "footer">
+        <div class = "footer-container">
+            <div>
+                <h2>About Us </h2>
+                <p>The Paradise Hotel Established in 1998 by Subrata Das .It located exactly in the heart of city Guwahati</p>
+                <ul class = "social-icons">
+                    <li class = "flex">
+                        <i class = "fa fa-twitter fa-2x"></i>
+                    </li>
+                    <li class = "flex">
+                        <i class = "fa fa-facebook fa-2x"></i>
+                    </li>
+                    <li class = "flex">
+                        <i class = "fa fa-instagram fa-2x"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Useful Links</h2>
+                <a href = "#">Blog</a>
+                <a href = "#">Rooms</a>
+                <a href = "#">Subscription</a>
+                <a href = "#">Gift Card</a>
+            </div>
+
+            <div>
+                <h2>Privacy</h2>
+                <a href = "#">Career</a>
+                <a href = "#">About Us</a>
+                <a href = "#">Contact Us</a>
+                <a href = "#">Services</a>
+            </div>
+
+            <div>
+                <h2>Have A Question?</h2>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-map-marker-alt"></i>
+                    </span>
+                    <span>
+                        Near Amingaon, GUWAHATI, ASSAM, INDIA
+                        pin: 754634
+                    </span>
+                </div>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-phone-alt"></i>
+                    </span>
+                    <span>
+                        +8250040288
+                    </span>
+                </div>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-envelope"></i>
+                    </span>
+                    <span>
+                        paradise@gmail.com
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
